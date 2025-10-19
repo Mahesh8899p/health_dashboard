@@ -39,8 +39,7 @@ Deployment-ready using Docker or Vercel
 ```bash
 git clone https://github.com/YOUR_USERNAME/health-dashboard.git
 cd health-dashboard
-
-2️⃣ Setup Backend
+ Setup Backend
 cd backend
 npm install
 Create a .env file inside backend:
@@ -50,7 +49,7 @@ JWT_SECRET=some_long_secret_key
 CLIENT_ORIGIN=http://localhost:5173
 Run backend:
 npm start
-3️⃣ Setup Frontend
+Setup Frontend
 cd ../frontend
 npm install
 Create .env file:
